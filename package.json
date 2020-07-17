@@ -4,11 +4,13 @@
   "description": "youtube with js and nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon babel-node index.js"
   },
   "author": "me",
   "license": "ISC",
   "dependencies": {
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
     "express": "^4.17.1"
-  }  
+  }
 }
